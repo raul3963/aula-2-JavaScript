@@ -11,3 +11,7 @@ setTimeout(() => {
     div3.classList.add("purple")
     div3.classList.remove("blue")
 }, 2000)
+
+setInterval(() => {
+    console.log("executou intervalo")
+}, 5000)
